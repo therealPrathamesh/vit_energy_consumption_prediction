@@ -1,4 +1,4 @@
-# Energy Consumption Prediction for Vellore, Tamil Nadu
+# Energy Consumption Prediction for VIT Vellore, Tamil Nadu
 
 This project utilizes Python, FastAPI, HTML5, CSS, and JavaScript to predict future energy consumption by identifying and leveraging trends from past energy consumption data. The application uses data from the past 10 years provided by VIT and implements NeuralProphet to account for anomalies such as COVID-19 while making predictions.
 
@@ -78,7 +78,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions, feel free to reach out:
 
-- Email: your-email@example.com
 - GitHub: [therealPrathamesh](https://github.com/therealPrathamesh)
 
 ## Credits
