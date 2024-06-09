@@ -1,6 +1,6 @@
-# ASL Gesture Recognition
+# Energy Consumption Prediction for Vellore, Tamil Nadu
 
-Utilized Python programming language to develop a Deep Learning algorithm (CNN) for real-time recognition of American Sign Language (ASL) gestures, achieving an accuracy rate of 95% in converting to English alphabets. The project includes a user-friendly web interface created with HTML, CSS, and Bootstrap, and the model is deployed using Flask.
+This project utilizes Python, FastAPI, HTML5, CSS, and JavaScript to predict future energy consumption by identifying and leveraging trends from past energy consumption data. The application uses data from the past 10 years provided by VIT and implements NeuralProphet to account for anomalies such as COVID-19 while making predictions.
 
 ## Table of Contents
 
@@ -15,32 +15,31 @@ Utilized Python programming language to develop a Deep Learning algorithm (CNN) 
 
 ## Introduction
 
-This project demonstrates expertise in machine learning and web development by successfully integrating a Deep Learning algorithm into a web application, showcasing innovation in technology solutions. The web application allows users to recognize ASL gestures in real-time and convert them into English alphabets.
+This project aims to predict future energy consumption in Vellore, Tamil Nadu, using advanced machine learning techniques. By analyzing past energy consumption data, the application can provide accurate forecasts, even considering anomalies like the COVID-19 pandemic.
 
 ## Features
 
-- Real-time recognition of ASL gestures.
-- High accuracy rate of 95%.
-- User-friendly web interface.
-- Interactive design using HTML, CSS, and Bootstrap.
-- Model deployment using Flask.
+- Predicts future energy consumption.
+- Utilizes 10 years of historical data.
+- Accounts for anomalies with NeuralProphet.
+- Interactive web interface using HTML5, CSS, and JavaScript.
+- Backend powered by FastAPI.
 
 ## Installation
 
 ### Prerequisites
 
 - Python 3.x
-- Flask
-- TensorFlow
-- OpenCV
-- HTML, CSS, Bootstrap
+- FastAPI
+- NeuralProphet
+- HTML5, CSS, JavaScript
 
 ### Steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/asl-gesture-recognition.git
-    cd asl-gesture-recognition
+    git clone https://github.com/yourusername/energy-consumption-prediction.git
+    cd energy-consumption-prediction
     ```
 
 2. Install the required Python packages:
@@ -48,18 +47,18 @@ This project demonstrates expertise in machine learning and web development by s
     pip install -r requirements.txt
     ```
 
-3. Run the Flask application:
+3. Run the FastAPI application:
     ```bash
-    python app.py
+    uvicorn main:app --reload
     ```
 
-4. Open your web browser and navigate to `http://127.0.0.1:5000/`.
+4. Open your web browser and navigate to `http://127.0.0.1:8000/`.
 
 ## Usage
 
 1. Launch the web application by following the installation steps.
-2. Use your camera to show ASL gestures in front of the webcam.
-3. The application will recognize the gesture and display the corresponding English alphabet in real-time.
+2. Enter the required details to view energy consumption predictions.
+3. The application will process the data and display the predicted energy consumption trends.
 
 ## Contributing
 
@@ -79,9 +78,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions, feel free to reach out:
 
+- Email: your-email@example.com
 - GitHub: [therealPrathamesh](https://github.com/therealPrathamesh)
 
 ## Credits
 
 - Developed by [Prathamesh Prabhu](https://github.com/therealPrathamesh)
-- Used libraries and frameworks: TensorFlow, Flask, OpenCV, HTML, CSS, Bootstrap
+- Data provided by VIT
+- Used libraries and frameworks: NeuralProphet, FastAPI, HTML5, CSS, JavaScript
